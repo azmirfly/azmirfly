@@ -1,6 +1,5 @@
 ---
 deployment:
- tasks:
- - export DEPLOYPATH=/home/kanq1585/repositories/azmirfly/
- - /bin/cp index.html $DEPLOYPATH
- - /bin/cp style.css $DEPLOYPATH
+tasks:
+- export DEPLOYPATH=//home/kanq1585/repositories/azmirfly/git/
+- /bin/cp -r * $DEPLOYPATH
